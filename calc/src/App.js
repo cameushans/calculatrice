@@ -20,7 +20,6 @@ class App extends React.Component {
      const newValue = e.target.value;
       console.log(newValue)
       this.setState({
-       
         truc:newValue
       });
 
@@ -42,7 +41,7 @@ class App extends React.Component {
 
 
      <h1>Calculatrice</h1>
-         <Total value={this.props.value}/>
+         <Total value= {this.state.value}/>
 
         <div className="App">
             <button value="1" onClick ={this.handleClick}>1</button>
