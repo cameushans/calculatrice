@@ -12,7 +12,7 @@ class App extends React.Component {
     }
 
     this.handleClick = this.handleClick.bind(this);
-   // this.resetClick = this.resetClick(this)
+    this.resetClick = this.resetClick.bind(this)
   }
   
 
@@ -22,12 +22,11 @@ class App extends React.Component {
       });
 
 
- /*  resetClick = (e)=>{
-     console.log(e)
+   resetClick = (e)=>{
      this.setState({
        truc: ""
      })
-   }*/
+   }
 
     
 }
