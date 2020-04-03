@@ -42,7 +42,7 @@ class App extends React.Component {
 
 
      <h1>Calculatrice</h1>
-         <Total value={this.state.truc}/>
+         <Total value={this.props.value}/>
 
         <div className="App">
             <button value="1" onClick ={this.handleClick}>1</button>

@@ -4,15 +4,14 @@ import "./reset.css"
 
 
 class Reset extends React.Component {
-    constructor(){
-        super();
-        this.state={value:""}
-    }
+   
+     
+    
 
     render(){
         return(
             <div>
-            <button className="reset">Reset</button>
+            <button className="reset">CE</button>
 
 
             </div>
