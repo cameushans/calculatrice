@@ -19,7 +19,8 @@ class App extends React.Component {
     handleClick = (e)=>{
      let newValue =this.state.truc + e.target.value;
       this.setState({truc:newValue
-      });
+      })
+    }
 
 
    resetClick = (e)=>{
@@ -29,7 +30,6 @@ class App extends React.Component {
    }
 
     
-}
 
   render(){
   return (
@@ -58,7 +58,7 @@ class App extends React.Component {
             <button value="/" onClick ={this.handleClick}>/</button>
             <button value="=" onClick ={this.handleClick}>=</button>
          </div>
-         <Reset />
+         <Reset onClick = {this.resetClick}/>
      </div>    
   );
   }

@@ -11,7 +11,7 @@ class Reset extends React.Component {
     render(){
         return(
             <div>
-            <button className="reset">CE</button>
+            <button className="reset" onClick={this.props.onClick}></button>
 
 
             </div>
