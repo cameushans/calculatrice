@@ -5,9 +5,8 @@ import "./total.css"
 class Total extends React.Component {
     render(){
     return (
-          <div className="total" value={this.state.truc}>
-    
-             
+          <div className="total">
+             {this.props.value}
           </div>
       )
   }
